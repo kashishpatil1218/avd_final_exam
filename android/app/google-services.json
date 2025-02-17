@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075186320999",
+    "project_id": "adv-final-examfb",
+    "storage_bucket": "adv-final-examfb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075186320999:android:d101132ed406a5243ef6c2",
+        "android_client_info": {
+          "package_name": "com.example.avd_final_exam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-niTl-0JX7mZJBcAJEAGaMqM6DfjE_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
