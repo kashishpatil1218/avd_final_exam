@@ -110,27 +110,36 @@ class HomePage extends StatelessWidget {
                                         children: [
                                           Padding(
                                             padding: const EdgeInsets.all(8.0),
-                                            child: TextField(
-                                                decoration: InputDecoration(
-                                                    enabledBorder:
-                                                        OutlineInputBorder(
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        10)),
-                                                    focusedBorder:
-                                                        OutlineInputBorder(
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        10)),
-                                                    hintText: 'Student Name'),
-                                                controller:
-                                                    authController.txtName),
+                                            child: Card(
+                                              color: Colors.grey.shade300,
+                                              child: TextField(
+                                                  style: TextStyle(
+                                                      color: Colors.black,
+                                                      fontSize: 15),
+                                                  decoration: InputDecoration(
+                                                      border: InputBorder.none,
+                                                      hintText: 'Student Name'),
+                                                  controller:
+                                                      authController.txtName),
+                                            ),
                                           ),
-                                          TextField(
-                                              controller:
-                                                  authController.txtAttendace),
+                                          Card(
+                                            color: Colors.grey.shade300,
+                                            child: Padding(
+                                              padding:
+                                                  const EdgeInsets.all(8.0),
+                                              child: TextField(
+                                                  decoration: InputDecoration(
+                                                      border: InputBorder.none,
+                                                      hintText:
+                                                          'precent/absent'),
+                                                  style: TextStyle(
+                                                      color: Colors.black,
+                                                      ),
+                                                  controller: authController
+                                                      .txtAttendace),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                       actions: <Widget>[
